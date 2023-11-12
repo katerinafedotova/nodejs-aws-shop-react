@@ -22,7 +22,9 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <>
       <Header />
-      <main>
+      <main
+        style={{ background: "linear-gradient(to right, #d6ebfa, #176599)" }}
+      >
         <Container sx={{ pb: 8 }} maxWidth="md">
           {children}
         </Container>
