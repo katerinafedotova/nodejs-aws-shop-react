@@ -36,3 +36,19 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+## Task 2 related documentation
+
+### Manual deployment: 
+[s3 bucket, link to html file](https://nodejs-aws-shop-react-of-katia.s3.eu-central-1.amazonaws.com/index.html)
+[link to cloudfront distribution](https://d32lk59z1xiv4h.cloudfront.net/)
+
+### Automated deployment
+please use the commands in package.json:
+```npm run build```  - to  build your app 
+```npm run cdk:bootstrap``` - to bootstrap
+```npm run cdk:deploy``` - to deploy the stack
+```npm run cdk:destroy```- to remove the stack
+
+[link to cloudfront distribution](https://d2gmu8nozl73rk.cloudfront.net)
+[link to s3](https://online-shop-bucket-of-katia.s3.eu-central-1.amazonaws.com/)
